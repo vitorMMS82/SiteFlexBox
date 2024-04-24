@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.foto{
+    display: inline-flex;
+    height: 29px;
+    width: 100px;
+    padding: right;
+    margin-right: 50px;
+}
+
+.menu-navegacao{
+    height: 100px;
+    padding-top: 2%;
+    font-family: Inter, sans-serif;
+    color: black;
+}
+
+
+
+
+
+
+
+.comida {
+    display: block;
+    position: absolute;
+    right: 30%;
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.Menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    margin-bottom: 75px;
+}
+
+.Texto {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    flex-wrap: wrap;
+}
+
+.Titulo {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+
+    margin-bottom: 1.5rem;
+}
+
+.Paragrafo {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    width: 48%;
+    margin-bottom: 3rem;
+}
+
+.cardapio{
+
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    padding-right: 14%;
+}
+
+.prato {
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    right: 818px;
+
+}
+   
+.Texto2{
+
+    width: 40%;
+    padding-top: 10%;
+    margin-inline: 35rem;
+}
+
+.Paragrafo2 {
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+    width: 70%;
+    margin-bottom: 2.5rem;
+
+
+}
+
+.T2 {
+    margin-inline: 30rem; 
+    
+}
+
+.lermais{
+    color: red;
+}
+
+.populares{
+    
+    font-family: Montserrat;
+    width: 40%;
+    padding-top: 10%;
+    margin-inline: 35rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: black;
+
+}
+
+.comen{
+
+    font-family: Montserrat;
+    width: 40%;
+    padding-top: 10%;
+    margin-inline: 35rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: black;
+
+
+}
+
+
+
+
